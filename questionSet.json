@@ -1,0 +1,330 @@
+{
+    "1": {
+        "question": "Who is the father of Geometry ?",
+        "option1": "Aristotle",
+        "option2": "Euclid",
+        "option3": "Pythagoras",
+        "option4": "Kepler",
+        "answer": 2
+    },
+    "2": {
+        "question": "Who was known as Iron man of India ?",
+        "option1": "Govind Ballabh Pant",
+        "option2": "Jawaharlal Nehru",
+        "option3": "Subhash Chandra Bose",
+        "option4": "Sardar Vallabhbhai Patel",
+        "answer": 4
+    },
+    "3": {
+        "question": "The Indian to beat the computers in mathematical wizardry is __.",
+        "option1": "Srinivasa Ramanujan",
+        "option2": "Rina Panigrahi",
+        "option3": "Raja Ramanna",
+        "option4": "Shakunthala Devi",
+        "answer": 4
+    },
+    "4": {
+        "question": "The ratio of width of our Naional flag to its length is __.",
+        "option1": "3:5",
+        "option2": "2:3",
+        "option3": "2:4",
+        "option4": "3:4",
+        "answer": 2
+    },
+    "5": {
+        "question": "Rabindranath Tagore's 'Jana Gana Mana' has been adopted as India's National Anthem. How many stanzas of the said song were adopted ?",
+        "option1": "Only the first stanza",
+        "option2": "The whole song",
+        "option3": "Third and Fourth stanza",
+        "option4": "First and Second stanza",
+        "answer": 1
+    },
+    "6": {
+        "question": "Which of the following was Satyajit Ray associated with ?",
+        "option1": "Classical music",
+        "option2": "Commercial art",
+        "option3": "Film Direction",
+        "option4": "Classical Dance",
+        "answer": 3
+    },
+    "7": {
+        "question": "'Dandia' is a popular dance of __.",
+        "option1": "Punjab",
+        "option2": "Gujarat",
+        "option3": "Tamil Nadu",
+        "option4": "Maharashtra",
+        "answer": 2
+    },
+    "8": {
+        "question": "The word 'Satyameva Jayate' inscribed below the base plate of the emblem of India are taken from __.",
+        "option1": "Rigveda",
+        "option2": "Satpath Brahmana",
+        "option3": "Mundak Upanishad",
+        "option4": "Ramayana",
+        "answer": 3
+    },
+    "9": {
+        "question": "The Rath Yatra at Puri is celebrated in honour of which Hindu deity ?",
+        "option1": "Ram",
+        "option2": "Jaganath",
+        "option3": "Shiva",
+        "option4": "Vishnu",
+        "answer": 2
+    },
+    "10": {
+        "question": "Which of the following folk dance forms in associated with Gujarat ?",
+        "option1": "Nautanki",
+        "option2": "Garba",
+        "option3": "Kathakali",
+        "option4": "Bhangra",
+        "answer": 2
+    },
+    "11": {
+        "question": "'Kathakali' is a folk dance prevalent in which state ?",
+        "option1": "Karnataka",
+        "option2": "Orissa",
+        "option3": "Kerala",
+        "option4": "Manipur",
+        "answer": 3
+    },
+    "12": {
+        "question": "The National Anthem was first sung in year __.",
+        "option1": "1911",
+        "option2": "1913",
+        "option3": "1936",
+        "option4": "1935",
+        "answer": 1
+    },
+    "13": {
+        "question": "'Madhubani' a style of folk paintings, is popular in which of the states in India ?",
+        "option1": "Uttar Pradesh",
+        "option2": "Rajasthan",
+        "option3": "Madhya Pradesh",
+        "option4": "Bihar",
+        "answer": 4
+    },
+    "14": {
+        "question": "Kathak is a classical dance of __.",
+        "option1": "North India",
+        "option2": "Tamil Nadu",
+        "option3": "Manipur",
+        "option4": "Kerala",
+        "answer": 1
+    },
+    "15": {
+        "question": "The last Mahakumbh of the 20th century was held at __.",
+        "option1": "Nasik",
+        "option2": "Ujjain",
+        "option3": "Allahabad",
+        "option4": "Haridwar",
+        "answer": 4
+    },
+    "16": {
+        "question": "The National Song of India was composed by __.",
+        "option1": "Rabindranath Tagore",
+        "option2": "Bankim Chandra Chatterji",
+        "option3": "Iqbal",
+        "option4": "Jai Shankar Prasad",
+        "answer": 2
+    },
+    "17": {
+        "question": "Who composed the famous song 'Sare Jahan Se Achha' ?",
+        "option1": "Jaidev",
+        "option2": "Mohammad Iqbal",
+        "option3": "Bankim Chandra Chattopadhayay",
+        "option4": "Rabindranath Tagore",
+        "answer": 2
+    },
+    "18": {
+        "question": "In which of the following festivals are boat races a special feature ?",
+        "option1": "Onam",
+        "option2": "Rongali Bihu",
+        "option3": "Navratri",
+        "option4": "Pongal",
+        "answer": 1
+    },
+    "19": {
+        "question": "Kalchakra ceremony is assciated with which of the following ceremonies ?",
+        "option1": "Hinduism",
+        "option2": "Buddhism",
+        "option3": "Jainism",
+        "option4": "Islam",
+        "answer": 2
+    },
+    "20": {
+        "question": "Plants absorb dissolved nitrates from soil and convert them into __.",
+        "option1": "Free Nitrogen",
+        "option2": "Urea",
+        "option3": "Ammonia",
+        "option4": "Proteins",
+        "answer": 1
+    },
+    "21": {
+        "question": "You're 4th place right now in a race. What place will you be in when you pass the person in 3rd place ?",
+        "option1": "1st",
+        "option2": "2nd",
+        "option3": "3rd",
+        "option4": "None of the above",
+        "answer": 3
+    },
+    "22": {
+        "question": "How many 0.5cm slices can you cut from a bread that is 25cm long ?",
+        "option1": "50",
+        "option2": "25",
+        "option3": "39",
+        "option4": "None of the above",
+        "answer": 1
+    },
+    "23": {
+        "question": "The answer is really big ?",
+        "option1": "THE ANSWER",
+        "option2": "Really big",
+        "option3": "An elephant",
+        "option4": "The data given is insufficient",
+        "answer": 1
+    },
+    "24": {
+        "question": "Divide 30 by half and add ten.",
+        "option1": "40.5",
+        "option2": "50",
+        "option3": "70",
+        "option4": "None",
+        "answer": 3
+    },
+    "25": {
+        "question": "There are two clocks of different colors: The green clock is broken and doesn't run at all, but the yellow clock loses one second every 24 hours. Which clock is more accurate ?",
+        "option1": "The green clock",
+        "option2": "The yellow clock",
+        "option3": "Neither",
+        "option4": "Both",
+        "answer": 1
+    },
+    "26": {
+        "question": "A farmer has 17 goats. All of them but 8 die. How many goats are alive ?",
+        "option1": "8",
+        "option2": "9",
+        "option3": "25",
+        "option4": "35",
+        "answer": 1
+    },
+    "27": {
+        "question": "If a leaf falls to the ground in a jungle, and no one hears it, will it make sound ?",
+        "option1": "Yes",
+        "option2": "No",
+        "option3": "Depends on how heavy the leaf was",
+        "option4": "Depends on the place it landed",
+        "answer": 1
+    },
+    "28": {
+        "question": "There are 45 mangoes in your basket. You take three out of the basket. How many mangoes are left ?",
+        "option1": "3",
+        "option2": "42",
+        "option3": "45",
+        "option4": "I do not eat mangoes!",
+        "answer": 3
+    },
+    "29": {
+        "question": "If there are 3 apples on the table and you take 2 of them, how many will you have ?",
+        "option1": "five",
+        "option2": "two",
+        "option3": "none",
+        "option4": "three",
+        "answer": 2
+    },
+    "30": {
+        "question": "Half of 2 + 2 = ?",
+        "option1": "1",
+        "option2": "3",
+        "option3": "2",
+        "option4": "4",
+        "answer": 2
+    },
+    "31": {
+        "question": "Can a Roman Catholic man from California marry his widow's sister who is from Texas ?",
+        "option1": "Yes",
+        "option2": "No",
+        "option3": "None of the Above",
+        "option4": "Question's data is insufficient!",
+        "answer": 2
+    },
+    "32": {
+        "question": "A doctor gives you 3 pills and tells you take 1 every half an hour, how long would it be before the pills have taken ?",
+        "option1": "120 minutes",
+        "option2": "90 minutes",
+        "option3": "60 minutes",
+        "option4": "30 minutes",
+        "answer": 3
+    },
+    "33": {
+        "question": "Divide 30 by a half and add 10 what have you got ?",
+        "option1": "70",
+        "option2": "25",
+        "option3": "60",
+        "option4": "None",
+        "answer": 1
+    },
+    "34": {
+        "question": "I don't speak, I cannot hear, but I always tell the truth.",
+        "option1": "The Watch",
+        "option2": "Old Granny",
+        "option3": "Fist",
+        "option4": "The Mirror",
+        "answer": 4
+    },
+    "35": {
+        "question": "Laughing Jackass is another name for which bird ?",
+        "option1": "Woodpecker",
+        "option2": "Raven",
+        "option3": "Cuckoo",
+        "option4": "Kookaburra",
+        "answer": 4
+    },
+    "36": {
+        "question": "What was the first animal sent into Space ?",
+        "option1": "Rabbit",
+        "option2": "Chimpanzee",
+        "option3": "Dog",
+        "option4": "Rat",
+        "answer": 3
+    },
+    "37": {
+        "question": "Jeff Bezos is the founder of which billion dollar company ?",
+        "option1": "Subway",
+        "option2": "Tesla",
+        "option3": "Apple",
+        "option4": "Amazon",
+        "answer": 4
+    },
+    "38": {
+        "question": "What was Walt Disney afraid of ?",
+        "option1": "Spiders",
+        "option2": "Cats",
+        "option3": "Mice",
+        "option4": "Dogs",
+        "answer": 3
+    },
+    "39": {
+        "question": "What is the name of the smallest bone in human body ?",
+        "option1": "Ulna",
+        "option2": "Stapes",
+        "option3": "Maxilla",
+        "option4": "Femur",
+        "answer":2
+    },
+    "40": {
+        "question": "What will be the next letter in the sequence w, q, l, h, e ?",
+        "option1": "a",
+        "option2": "b",
+        "option3": "c",
+        "option4": "d",
+        "answer": 3
+    },
+    "41": {
+        "question": "How many months have 28 days ?",
+        "option1": "2",
+        "option2": "1",
+        "option3": "All of them",
+        "option4": "Depentds if there's a leap year or not",
+        "answer": 3
+    }
+}
