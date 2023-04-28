@@ -1,0 +1,510 @@
+/* Importing Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+:root{
+    --first: block;
+    --second: none;
+    --third: none;
+
+    --size: 21vw;
+    --steps: 17;
+    --question: rgba(39, 104, 224, 0.508);
+    --timer: rgba(110, 123, 221, 0.719);
+    --option1: rgba(142, 60, 160, 0.488);
+    --option2: rgba(142, 60, 160, 0.488);
+    --option3: rgba(142, 60, 160, 0.488);
+    --option4: rgba(142, 60, 160, 0.488);
+    --checkpoint1: rgba(18, 101, 107, 0.393);
+    --checkpoint2: rgba(18, 101, 107, 0.393);
+    --checkpoint3: rgba(18, 101, 107, 0.393);
+    --checkpoint4: rgba(18, 101, 107, 0.393);
+    --checkpoint5: rgba(18, 101, 107, 0.393);
+    --checkpoint6: rgba(18, 101, 107, 0.393);
+    --checkpoint7: rgba(18, 101, 107, 0.393);
+    --checkpoint8: rgba(18, 101, 107, 0.393);
+    --checkpoint9: rgba(18, 101, 107, 0.393);
+    --checkpoint10: rgba(18, 101, 107, 0.393);
+    --checkpoint11: rgba(18, 101, 107, 0.393);
+    --checkpoint12: rgba(18, 101, 107, 0.393);
+    --checkpoint13: rgba(18, 101, 107, 0.393);
+    --checkpoint14: rgba(18, 101, 107, 0.393);
+    --checkpoint15: rgba(18, 101, 107, 0.393);
+    
+    --option1-border: rgba(147, 69, 165, 0.667);
+    --option2-border: rgba(147, 69, 165, 0.667);
+    --option3-border: rgba(147, 69, 165, 0.667);
+    --option4-border: rgba(147, 69, 165, 0.667);
+}
+/* 4166 4451 0498 3746 */
+.question-border {
+    border: 1px solid rgba(139, 180, 255, 0.656);
+}
+.option1-border {
+    border: 1px solid var(--option1-border);
+}
+.option2-border {
+    border: 1px solid var(--option2-border);
+}
+.option3-border {
+    border: 1px solid var(--option3-border);
+}
+.option4-border {
+    border: 1px solid var(--option4-border);
+}
+
+/* Different Animations */
+@keyframes typing-forward {
+    from {
+        width: 0;
+    }
+    to {
+        width: var(--size);
+    }
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+}
+@keyframes typing-backward {
+    from {
+        width: var(--size);
+    }
+    to {
+        width: 0;
+    }
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+}
+@keyframes blink {
+    50% {
+        border-color: transparent;
+    }
+}
+
+/* Setting Global Style */
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    /* background-image: url('background.gif'); */
+    /* background-image: url('background.mp4'); */
+    /* background-image: url('background2.mp4'); */
+    /* background-image: url('background3.mp4'); */
+    /* background-image: url('background4.mp4'); */
+    /* background-image: url('background5.mp4'); */
+    background-image: url('finalBackground.mp4');
+    background-size: cover;
+}
+
+/* Setting Font & Background Color */
+.colors {
+    color: rgb(206, 205, 205);
+}
+
+/* Center Elements */
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Title Container */
+.title {
+    display: flex;
+    align-items: center;
+}
+
+/* Question Status/Checkpoints */
+.checkpoints {
+    font-size: 1.145vw;
+    position: relative;
+    top: 2vh;
+    width: 9.5vw;
+    margin: 0 2vw;
+}
+
+#q1, #q2, #q3, #q4, #q5, #q6, #q7, #q8, #q9, #q10, #q11, #q12, #q13, #q14, #q15 {
+  padding: 2px 0;
+  padding-left: 1vw;
+}
+
+/* Styling Typing Texts */
+.typing-demo-1 {
+    display: var(--first);
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    animation: typing-forward 0.8s steps(var(--steps)) 1, typing-backward 0.8s 1.8s steps(var(--steps)) 1, blink .5s step-end infinite alternate;
+}
+.typing-demo-2 {
+    display: var(--second);
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    animation: typing-forward 1.3s steps(var(--steps)) 1, typing-backward 1.3s 2.3s steps(var(--steps)) 1, blink .5s step-end infinite alternate;
+}
+.typing-demo-3 {
+    display: var(--third);
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    animation: typing-forward 1s steps(var(--steps)) 1, typing-backward 1s 2s steps(var(--steps)) 1, blink .5s step-end infinite alternate;
+}
+.wrapper {
+    font-size: 5vw;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.typing {
+    width: 74vw;
+}
+
+/* Question Timer Block */
+.half-circle {
+    width: 10vw;
+    height: 5vw; /* as the half of the width */
+    background-color: rgb(108, 27, 183);
+    border-top-left-radius: 110px;  /* 100px of height + 10px of border */
+    border-top-right-radius: 110px; /* 100px of height + 10px of border */
+    
+    border-bottom: 0;
+}
+.timer {
+    font-size: 4vw;
+    font-family: 'Anton', sans-serif;
+}
+.timer-container {
+    width: 100vw;
+}
+
+/* Question & Option Block */
+#question, .options {
+    overflow:auto;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#question {
+    font-size: 2.4vw;
+    width: 85vw;
+    height: 6.6536vw;
+    margin-bottom: 1vh;
+    border-radius: 95px;
+    padding: 2vh 4vw;
+    text-align: center;
+}
+#option-block1, #option-block2 {
+    display: flex;
+    justify-content: center;
+}
+.options {
+    width: 37vw;
+    height: 3.9vw;
+    margin: 0 1vw;
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+    border-radius: 95px;
+    font-size: 1.8vw;
+}
+.line {
+    width: 5vw;
+    border: 0.14vw solid rgb(181, 134, 17);
+}
+
+/* Options Heading */
+#a, #b, #c, #d {
+    margin-right: 0.7vw;
+    color: rgb(180, 137, 26);
+}
+
+/* Lifeline Border */
+#closed {
+    cursor: not-allowed;
+}
+#option1:hover, #option2:hover, #option3:hover, #option4:hover, #option5:hover, #lifeline1:hover, #lifeline2:hover, #lifeline3:hover, #lifeline4:hover {
+    cursor: pointer;
+}
+
+/* Glass Effect */
+.glass-question {
+  background: linear-gradient(
+    135deg,
+    var(--question),
+    var(--question)
+  );
+  backdrop-filter: blur(21px);
+  -webkit-backdrop-filter: blur(21px); /* If above line doesn't work */
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.36);
+  /* border: 1px solid rgba(255, 255, 255, 0.16); */
+  border-radius: 24px;
+  color: rgb(225, 224, 224);
+}
+.glass-timer {
+  background: linear-gradient(
+    135deg,
+    var(--timer),
+    var(--timer)
+  );
+  backdrop-filter: blur(21px);
+  -webkit-backdrop-filter: blur(21px); /* If above line doesn't work */
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.36);
+  /* border: 1px solid rgba(255, 255, 255, 0.16); */
+  border-radius: 24px;
+  color: rgb(225, 224, 224);
+}
+.glass-option1 {
+    background: linear-gradient(
+      135deg,
+      var(--option1),
+      var(--option1)
+    );
+    backdrop-filter: blur(21px);
+    -webkit-backdrop-filter: blur(21px); /* If above line doesn't work */
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.36);
+    /* border: 1px solid rgba(255, 255, 255, 0.16); */
+    border-radius: 24px;
+    color: rgb(225, 224, 224);
+}
+.glass-option2 {
+    background: linear-gradient(
+      135deg,
+      var(--option2),
+      var(--option2)
+    );
+    backdrop-filter: blur(21px);
+    -webkit-backdrop-filter: blur(21px); /* If above line doesn't work */
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.36);
+    /* border: 1px solid rgba(255, 255, 255, 0.16); */
+    border-radius: 24px;
+    color: rgb(225, 224, 224);
+}
+.glass-option3 {
+    background: linear-gradient(
+      135deg,
+      var(--option3),
+      var(--option3)
+    );
+    backdrop-filter: blur(21px);
+    -webkit-backdrop-filter: blur(21px); /* If above line doesn't work */
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.36);
+    /* border: 1px solid rgba(255, 255, 255, 0.16); */
+    border-radius: 24px;
+    color: rgb(225, 224, 224);
+}
+.glass-option4 {
+    background: linear-gradient(
+      135deg,
+      var(--option4),
+      var(--option4)
+    );
+    backdrop-filter: blur(21px);
+    -webkit-backdrop-filter: blur(21px); /* If above line doesn't work */
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.36);
+    /* border: 1px solid rgba(255, 255, 255, 0.16); */
+    border-radius: 24px;
+    color: rgb(225, 224, 224);
+}
+.glass-checkpoint1 {
+    background: linear-gradient(
+      135deg,
+      var(--checkpoint1),
+      var(--checkpoint1)
+    );
+    backdrop-filter: blur(21px);
+    -webkit-backdrop-filter: blur(21px); /* If above line doesn't work */
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.36);
+    /* border: 1px solid rgba(255, 255, 255, 0.16); */
+    border-radius: 24px;
+    color: rgb(225, 224, 224);
+}
+.glass-checkpoint2 {
+    background: linear-gradient(
+      135deg,
+      var(--checkpoint2),
+      var(--checkpoint2)
+    );
+    backdrop-filter: blur(21px);
+    -webkit-backdrop-filter: blur(21px); /* If above line doesn't work */
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.36);
+    /* border: 1px solid rgba(255, 255, 255, 0.16); */
+    border-radius: 24px;
+    color: rgb(225, 224, 224);
+}
+.glass-checkpoint3 {
+    background: linear-gradient(
+      135deg,
+      var(--checkpoint3),
+      var(--checkpoint3)
+    );
+    backdrop-filter: blur(21px);
+    -webkit-backdrop-filter: blur(21px); /* If above line doesn't work */
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.36);
+    /* border: 1px solid rgba(255, 255, 255, 0.16); */
+    border-radius: 24px;
+    color: rgb(225, 224, 224);
+}
+.glass-checkpoint4 {
+    background: linear-gradient(
+      135deg,
+      var(--checkpoint4),
+      var(--checkpoint4)
+    );
+    backdrop-filter: blur(21px);
+    -webkit-backdrop-filter: blur(21px); /* If above line doesn't work */
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.36);
+    /* border: 1px solid rgba(255, 255, 255, 0.16); */
+    border-radius: 24px;
+    color: rgb(225, 224, 224);
+}
+.glass-checkpoint5 {
+    background: linear-gradient(
+      135deg,
+      var(--checkpoint5),
+      var(--checkpoint5)
+    );
+    backdrop-filter: blur(21px);
+    -webkit-backdrop-filter: blur(21px); /* If above line doesn't work */
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.36);
+    /* border: 1px solid rgba(255, 255, 255, 0.16); */
+    border-radius: 24px;
+    color: rgb(225, 224, 224);
+}
+.glass-checkpoint6 {
+    background: linear-gradient(
+      135deg,
+      var(--checkpoint6),
+      var(--checkpoint6)
+    );
+    backdrop-filter: blur(21px);
+    -webkit-backdrop-filter: blur(21px); /* If above line doesn't work */
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.36);
+    /* border: 1px solid rgba(255, 255, 255, 0.16); */
+    border-radius: 24px;
+    color: rgb(225, 224, 224);
+}
+.glass-checkpoint7 {
+    background: linear-gradient(
+      135deg,
+      var(--checkpoint7),
+      var(--checkpoint7)
+    );
+    backdrop-filter: blur(21px);
+    -webkit-backdrop-filter: blur(21px); /* If above line doesn't work */
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.36);
+    /* border: 1px solid rgba(255, 255, 255, 0.16); */
+    border-radius: 24px;
+    color: rgb(225, 224, 224);
+}
+.glass-checkpoint8 {
+    background: linear-gradient(
+      135deg,
+      var(--checkpoint8),
+      var(--checkpoint8)
+    );
+    backdrop-filter: blur(21px);
+    -webkit-backdrop-filter: blur(21px); /* If above line doesn't work */
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.36);
+    /* border: 1px solid rgba(255, 255, 255, 0.16); */
+    border-radius: 24px;
+    color: rgb(225, 224, 224);
+}
+.glass-checkpoint9 {
+    background: linear-gradient(
+      135deg,
+      var(--checkpoint9),
+      var(--checkpoint9)
+    );
+    backdrop-filter: blur(21px);
+    -webkit-backdrop-filter: blur(21px); /* If above line doesn't work */
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.36);
+    /* border: 1px solid rgba(255, 255, 255, 0.16); */
+    border-radius: 24px;
+    color: rgb(225, 224, 224);
+}
+.glass-checkpoint10 {
+    background: linear-gradient(
+      135deg,
+      var(--checkpoint10),
+      var(--checkpoint10)
+    );
+    backdrop-filter: blur(21px);
+    -webkit-backdrop-filter: blur(21px); /* If above line doesn't work */
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.36);
+    /* border: 1px solid rgba(255, 255, 255, 0.16); */
+    border-radius: 24px;
+    color: rgb(225, 224, 224);
+}
+.glass-checkpoint11 {
+    background: linear-gradient(
+      135deg,
+      var(--checkpoint11),
+      var(--checkpoint11)
+    );
+    backdrop-filter: blur(21px);
+    -webkit-backdrop-filter: blur(21px); /* If above line doesn't work */
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.36);
+    /* border: 1px solid rgba(255, 255, 255, 0.16); */
+    border-radius: 24px;
+    color: rgb(225, 224, 224);
+}
+.glass-checkpoint12 {
+    background: linear-gradient(
+      135deg,
+      var(--checkpoint12),
+      var(--checkpoint12)
+    );
+    backdrop-filter: blur(21px);
+    -webkit-backdrop-filter: blur(21px); /* If above line doesn't work */
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.36);
+    /* border: 1px solid rgba(255, 255, 255, 0.16); */
+    border-radius: 24px;
+    color: rgb(225, 224, 224);
+}
+.glass-checkpoint13 {
+    background: linear-gradient(
+      135deg,
+      var(--checkpoint13),
+      var(--checkpoint13)
+    );
+    backdrop-filter: blur(21px);
+    -webkit-backdrop-filter: blur(21px); /* If above line doesn't work */
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.36);
+    /* border: 1px solid rgba(255, 255, 255, 0.16); */
+    border-radius: 24px;
+    color: rgb(225, 224, 224);
+}
+.glass-checkpoint14 {
+    background: linear-gradient(
+      135deg,
+      var(--checkpoint14),
+      var(--checkpoint14)
+    );
+    backdrop-filter: blur(21px);
+    -webkit-backdrop-filter: blur(21px); /* If above line doesn't work */
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.36);
+    /* border: 1px solid rgba(255, 255, 255, 0.16); */
+    border-radius: 24px;
+    color: rgb(225, 224, 224);
+}
+.glass-checkpoint15 {
+    background: linear-gradient(
+      135deg,
+      var(--checkpoint15),
+      var(--checkpoint15)
+    );
+    backdrop-filter: blur(21px);
+    -webkit-backdrop-filter: blur(21px); /* If above line doesn't work */
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.36);
+    /* border: 1px solid rgba(255, 255, 255, 0.16); */
+    border-radius: 24px;
+    color: rgb(225, 224, 224);
+    /* color: rgba(9, 59, 19, 0.453); */
+}
+
+img {
+    height: 8.02vw;
+}
+
+/* seagreen -> rgba(18, 101, 107, 0.393)
+purple -> rgba(91, 18, 107, 0.488)
+lightpurple -> rgba(91, 18, 107, 0.21)
+darkgreen -> rgba(7, 74, 22, 0.453)
+darkred -> rgba(74, 7, 7, 0.453)
+neutral -> rgba(255, 255, 255, 0.1) */
