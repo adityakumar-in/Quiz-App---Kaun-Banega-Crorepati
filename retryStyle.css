@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Glitch&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(245, 198, 198);
+}
+
+@keyframes clicked {
+    from {
+        height: 3.5vw;
+        width: 8.6vw;
+        font-size: 1.4vw;
+    }
+    to {
+        width: 9vw;
+        height: 3.9vw;
+        font-size: 1.8vw;
+    }
+    
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.insideText {
+    font-family: 'Concert One', cursive;
+    font-size: 19vw;
+    color: darkred;
+    margin-top: 11vw;
+}
+
+.glassEffect {
+    background: linear-gradient(
+      135deg,
+      rgba(246, 154, 154, 0.719),
+      rgba(188, 67, 119, 0.719)
+    );
+    backdrop-filter: blur(21px);
+    -webkit-backdrop-filter: blur(21px); /* If above line doesn't work */
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.36);
+    /* border: 1px solid rgba(255, 255, 255, 0.16); */
+    border-radius: 24px;
+    color: rgb(225, 224, 224);
+  }
+
+  .btn {
+    width: 9vw;
+    height: 3.9vw;
+    display: flex;
+    align-items: center;
+    border-radius: 95px;
+    font-size: 1.8vw;
+    font-family: 'Archivo Black', sans-serif;
+    color: rgb(255, 212, 212);
+  }
+
+.buttons {
+    margin: 5vw;
+    height: 4vw;
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+.btn:active {
+    
+    animation: clicked 0.8s linear 1;
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+}
