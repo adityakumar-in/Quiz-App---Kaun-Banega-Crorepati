@@ -83,13 +83,7 @@
     padding: 0;
 }
 body {
-    /* background-image: url('background.gif'); */
-    /* background-image: url('background.mp4'); */
-    /* background-image: url('background2.mp4'); */
-    /* background-image: url('background3.mp4'); */
-    /* background-image: url('background4.mp4'); */
-    /* background-image: url('background5.mp4'); */
-    background-image: url('finalBackground.mp4');
+    background-image: url('background.png');
     background-size: cover;
 }
 
